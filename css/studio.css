@@ -189,6 +189,7 @@ img {
   text-align: center;
   background-color: var(--secondary-text-color);
 }
+/* phone */
 .overlay {
   width: 1440px;
   height: 600px;
@@ -199,11 +200,48 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/icons.svg/people-office.jpg);
+    url(../images/icons.svg/hero/bg_mob@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+/* tablet */
+@media screen and (min-width: 767px) {
+  .overlay {
+    width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/icons.svg/hero/bg_tablet@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+/* desc */
+@media screen and (min-width: 1158px) {
+  .overlay {
+    width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/icons.svg/hero/bg1desc@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 .hero-title {
   width: 496px;
   margin-bottom: 48px;
