@@ -66,6 +66,14 @@ p,
 ul {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  object-fit: cover;
+  object-position: center;
+}
 
 .visually-hidden {
   position: absolute;
@@ -363,12 +371,14 @@ h2 {
 }
 /* section two */
 /* mobile */
+.section-two {
+  padding-bottom: 0px;
+}
 @media screen and (max-width: 1157px) {
   .work-container {
     display: none;
   }
 }
-
 .section-two {
   padding-top: 0px;
 }
@@ -397,6 +407,7 @@ h2 {
 
   color: var(--secondary-text-color);
 }
+
 /* section three */
 .team {
   background: var(--button-background);
