@@ -97,6 +97,7 @@ img {
 .header {
   border-bottom: 1px solid var(--button-border);
 }
+
 .header-container {
   display: flex;
   align-items: center;
