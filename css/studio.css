@@ -108,9 +108,23 @@ img {
     display: none;
   }
 }
-.header-condainer {
+.mob-container {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.mobile-menu-open {
+  margin-left: auto;
+  margin-right: 16px;
+  width: 32px;
+  height: 22px;
+  background-color: var(--button-text-active);
+  border-color: transparent;
+  border: none;
+  padding: 0;
 }
 .logo-nav {
   color: var(--primary-text-color);
@@ -136,6 +150,16 @@ img {
 .mobile-menu-open_icon {
   stroke: var(--secondary-text-color);
   background-color: var(--button-text-active);
+}
+/* mobile-menu */
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: var(--accent-link-color);
 }
 /* Hero */
 
