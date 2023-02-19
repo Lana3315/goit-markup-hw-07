@@ -456,7 +456,15 @@ h2 {
 }
 /* section two */
 /* mobile */
-
+.section-two {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 1157px) {
+  .section-two {
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 1157px) {
   .work-container {
     display: none;
