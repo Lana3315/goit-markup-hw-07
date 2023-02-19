@@ -103,16 +103,18 @@ img {
   align-items: center;
 }
 
-.site-nav .item + .item {
+.site-nav .item-nav + .item-nav {
   margin-left: 40px;
 }
+
 .address {
   margin-left: auto;
 }
-.address .item {
+
+.address .item-nav {
   margin-right: 40px;
 }
-.item-:nth-child(2n) {
+.item-nav:nth-child(2n) {
   margin-right: 0px;
 }
 
