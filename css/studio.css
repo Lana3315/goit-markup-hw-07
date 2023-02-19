@@ -41,7 +41,7 @@ body {
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1199px) {
   .container {
     max-width: 1158px;
   }
@@ -53,7 +53,7 @@ body {
 }
 
 /* desctop screen  1200*/
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1199px) {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -341,13 +341,13 @@ img {
 .benefit-item {
   display: none;
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1199px) {
   .benefit-item {
     display: block;
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1199px) {
   .section-benefit {
     display: flex;
     align-items: center;
@@ -564,7 +564,7 @@ a {
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1199px) {
   .team-card {
     background: var(--main-background-color);
 
@@ -596,7 +596,7 @@ a {
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1199px) {
   .customers {
     display: flex;
     text-align: center;
