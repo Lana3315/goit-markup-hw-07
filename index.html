@@ -38,7 +38,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open is-open" js-open-menu>
           <svg class="mobile-menu-open_icon" width="30" height="19">
             <use
               href="./images/icons.svg/symbol-defsnew.svg#icon-menu-burger"
@@ -63,7 +63,81 @@
           </ul>
         </address>
       </div>
-      <div class="mobile-menu"></div>
+      <div class="mobile-menu" js-menu-container>
+        <div class="container mobile-menu_container">
+          <button type="button" class="mobile-menu_close-btn" js-close-menu>
+            <svg class="obile-menu_close-icon" width="24" height="24">
+              <use
+                href="./images/icons.svg/symbol-defsnew.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+          <ul class="list header-container site-nav mob-list">
+            <li class="item-mob">
+              <a href="./index.html" class="mob-link current">Studio</a>
+            </li>
+            <li class="item-mob">
+              <a href="./portfolio.html" class="mob-link">Portfolio</a>
+            </li>
+            <li class="item-mob">
+              <a href="/Contacts" class="mob-link">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="header-container list contact-mob">
+            <!-- Mail -->
+            <li class="item-mob">
+              <a href="mailto:info@devstudio.com" class="contact-link_mob"
+                >info@devstudio.com</a
+              >
+            </li>
+            <!-- Number -->
+            <li class="item-mob">
+              <a href="tel:+11(000)1111111" class="contact-link_mob"
+                >+11(000)111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="list media-list media-mob">
+            <li class="media-team">
+              <a class="team-link" href="">
+                <svg width="16" height="16">
+                  <use
+                    href="./images/icons.svg/symbol-defsnew.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-team">
+              <a class="team-link" href="">
+                <svg width="16" height="16">
+                  <use
+                    href="./images/icons.svg/symbol-defsnew.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-team">
+              <a class="team-link" href="">
+                <svg width="16" height="16">
+                  <use
+                    href="./images/icons.svg/symbol-defsnew.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-team">
+              <a class="team-link" href="">
+                <svg width="16" height="16">
+                  <use
+                    href="./images/icons.svg/symbol-defsnew.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero-section section overlay">
@@ -645,6 +719,8 @@
         </form>
       </div>
     </div>
+
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
