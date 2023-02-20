@@ -273,6 +273,7 @@ img {
 @media screen and (min-width: 768px) {
   .contact-link {
     color: var(--primary-text-color);
+    font-weight: normal;
     text-decoration: none;
 
     font-size: 12px;
@@ -433,7 +434,7 @@ img {
   .hero-title {
     width: 496px;
     margin-bottom: 40px;
-    font-size: 36px;
+    font-size: 56px;
     line-height: 1.07;
   }
 }
@@ -442,8 +443,6 @@ img {
   .hero-title {
     width: 496px;
     margin-bottom: 48px;
-    font-size: 36px;
-    line-height: 1.07;
   }
 }
 /* Button */
