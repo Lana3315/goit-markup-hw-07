@@ -249,7 +249,7 @@ img {
   padding-bottom: 40px;
 }
 /* tablet screen 768 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .tablet-address {
     display: flex;
     flex-direction: column;
@@ -306,8 +306,15 @@ img {
     border-radius: 2px;
   }
 }
-
 @media screen and (min-width: 1199px) {
+  .address {
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .address .item-nav {
+    margin-right: 40px;
+  }
 }
 /* Hero */
 
