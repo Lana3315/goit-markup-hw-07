@@ -317,9 +317,11 @@ img {
 }
 @media screen and (min-width: 1199px) {
   .contact-link {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color var(--animation);
   }
 }
 /* Hero */
