@@ -28,7 +28,6 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 /* phone screen  */
 @media screen and (min-width: 480px) {
@@ -1071,6 +1070,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: none;
 }
 .btn-send:hover,
 .btn-send:focus {
@@ -1192,4 +1192,5 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
 }
