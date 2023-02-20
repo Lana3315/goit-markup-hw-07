@@ -250,6 +250,12 @@ img {
 }
 /* tablet screen 768 */
 @media screen and (min-width: 768px) {
+  .tablet-address {
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+    margin-left: 118px;
+  }
 }
 /* Nav-bar */
 @media screen and (min-width: 768px) {
@@ -266,16 +272,20 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-link {
-    display: block;
-    padding: 24px 0;
-
+  .contact-link {
     color: var(--primary-text-color);
     text-decoration: none;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.04em;
     transition: color var(--animation);
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-link:hover,
+  .contact-link:focus {
+    color: var(--accent-link-color);
   }
 }
 @media screen and (min-width: 768px) {
@@ -297,6 +307,8 @@ img {
   }
 }
 
+@media screen and (min-width: 1199px) {
+}
 /* Hero */
 
 .hero-section {
