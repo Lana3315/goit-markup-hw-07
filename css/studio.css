@@ -248,7 +248,6 @@ img {
     display: flex;
     flex-direction: column;
     column-gap: 4px;
-    margin-left: 118px;
   }
 }
 /* Nav-bar */
@@ -256,6 +255,7 @@ img {
   .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -340,7 +340,7 @@ img {
 /* Hero */
 
 .hero-section {
-  padding: 188px 0;
+  padding: 112px 0;
   text-align: center;
   background-color: var(--secondary-text-color);
 }
@@ -551,6 +551,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .item {
+    justify-content: flex-start;
     width: calc(100% / 2 - 24px);
   }
 }
@@ -748,9 +749,11 @@ a {
 /* tablet */
 @media screen and (min-width: 768px) {
   .customers {
+    width: 552px;
     display: flex;
-    text-align: center;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
+    margin: 0 auto;
   }
 }
 /* desctop screen  1200*/
@@ -863,6 +866,13 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1126,6 +1136,8 @@ a {
 @media screen and (min-width: 1200px) {
   .footer-email {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 .footer-email::placeholder {
@@ -1170,7 +1182,7 @@ a {
   max-width: 398px;
   height: 40px;
   color: var(--button-text-active);
-  background-color: var(--secondary-text-color);
+  background-color: var(--primary-text-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 
@@ -1192,7 +1204,7 @@ a {
     width: 264px;
     height: 40px;
     color: var(--button-text-active);
-    background-color: var(--secondary-text-color);
+    background-color: var(--primary-text-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
   }
@@ -1203,7 +1215,7 @@ a {
     width: 264px;
     height: 40px;
     color: var(--button-text-active);
-    background-color: var(--secondary-text-color);
+    background-color: var(--primary-text-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
   }
