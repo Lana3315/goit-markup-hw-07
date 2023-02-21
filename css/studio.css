@@ -25,28 +25,23 @@ body {
   font-size: 16px;
 }
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 /* phone screen  */
-@media screen and (min-width: 480px) {
-  .container {
-    width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.container {
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* tablet screen 768 */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 }
 
@@ -56,7 +51,7 @@ body {
 }
 
 /* desctop screen  1200*/
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -97,12 +92,12 @@ img {
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .mob-nav {
     display: none;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .mobile-menu-open {
     display: none;
   }
@@ -248,7 +243,7 @@ img {
   padding-bottom: 40px;
 }
 /* tablet screen 768 */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .tablet-address {
     display: flex;
     flex-direction: column;
@@ -306,17 +301,17 @@ img {
     border-radius: 2px;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .address {
     margin-left: auto;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .address .item-nav {
     margin-right: 40px;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .contact-link {
     font-style: normal;
     font-size: 16px;
@@ -362,9 +357,9 @@ img {
 }
 
 /* tablet */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .overlay {
-    width: 767px;
+    width: 768px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -387,7 +382,7 @@ img {
   }
 }
 /* desc */
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .overlay {
     width: 1440px;
     height: 600px;
@@ -430,7 +425,7 @@ img {
   }
 }
 /* tablet */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .hero-title {
     width: 496px;
     margin-bottom: 40px;
@@ -487,13 +482,13 @@ img {
 .benefit-item {
   display: none;
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .benefit-item {
     display: block;
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .section-benefit {
     display: flex;
     align-items: center;
@@ -529,7 +524,7 @@ img {
     margin: -12px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .item {
     display: flex;
     flex-wrap: wrap;
@@ -562,7 +557,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .section-title {
     text-align: center;
   }
@@ -684,7 +679,7 @@ a {
   gap: 24px;
 }
 /* phone screen */
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .team-card {
     background: var(--main-background-color);
 
@@ -697,7 +692,7 @@ a {
   }
 }
 /* tablet screen  1200*/
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .team-card {
     background: var(--main-background-color);
 
@@ -710,7 +705,7 @@ a {
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .team-card {
     background: var(--main-background-color);
 
@@ -734,7 +729,7 @@ a {
   row-gap: 72px;
 }
 /* tablet */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .customers {
     display: flex;
     text-align: center;
@@ -742,7 +737,7 @@ a {
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .customers {
     display: flex;
     text-align: center;
@@ -763,7 +758,7 @@ a {
 .customer-partner {
   margin: 0 auto;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .customer-partner {
     width: 168px;
   }
@@ -846,14 +841,14 @@ a {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .webstudio-continer {
     margin-left: 120px;
   }
@@ -1090,13 +1085,13 @@ a {
   align-items: center;
   margin-left: 0px;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .footer-form {
     display: block;
     margin-left: 108px;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .footer-form {
     margin-left: 80px;
   }
@@ -1106,12 +1101,12 @@ a {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .footer-email {
     display: block;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .footer-email {
     display: flex;
   }
@@ -1174,8 +1169,8 @@ a {
     width: 398px;
   }
 }
-/* tablet screen  767*/
-@media screen and (min-width: 767px) {
+/* tablet screen  768*/
+@media screen and (min-width: 768px) {
   .footer-date {
     width: 264px;
     height: 40px;
@@ -1186,7 +1181,7 @@ a {
   }
 }
 /* desctop screen  1200*/
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .footer-date {
     width: 264px;
     height: 40px;
