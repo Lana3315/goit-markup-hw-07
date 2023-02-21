@@ -151,8 +151,6 @@ img {
 /* mobile-menu */
 .mobile-menu_container {
   position: relative;
-  margin-right: 40px;
-  margin-left: 40px;
 }
 .mobile-menu.is-open {
   opacity: 1;
@@ -178,7 +176,7 @@ img {
 .mobile-menu_close-btn {
   position: absolute;
   top: 24px;
-  right: 34px;
+  right: 24px;
   width: 24px;
   height: 24px;
   display: flex;
@@ -197,6 +195,7 @@ img {
 .mob-list {
   display: flex;
   flex-direction: column;
+  padding-left: 40px;
   padding-top: 80px;
 }
 
@@ -218,6 +217,7 @@ img {
 }
 
 .contact-mob {
+  margin-left: 40px;
   margin-bottom: 48px;
   margin-top: 284px;
 }
