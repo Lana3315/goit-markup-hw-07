@@ -221,7 +221,10 @@ img {
   margin-left: 40px;
   margin-top: 284px;
 }
-
+.media-mob_contact {
+  display: flex;
+  gap: 24px;
+}
 .contact-link_mob {
   width: 337px;
   display: block;
@@ -675,8 +678,11 @@ h2 {
 .media-team {
   width: 40px;
 }
+
 .media-list {
   display: flex;
+  justify-content: center;
+  margin-top: 8px;
   gap: 24px;
 }
 
