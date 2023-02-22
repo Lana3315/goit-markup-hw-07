@@ -237,11 +237,12 @@ img {
   flex-direction: column;
   margin-top: auto;
 }
+
 .media-mob_contact {
   display: flex;
   justify-content: space-between;
 }
-@media screen and(min-width:428px) {
+@media screen and (min-width: 375px) {
   .media-mob_contact {
     display: flex;
     gap: 56px;
