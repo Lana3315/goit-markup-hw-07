@@ -256,8 +256,6 @@ img {
   transition: color var(--animation);
 }
 .contact-tel_mob {
-  width: 337px;
-  display: block;
   padding: 24px 0;
 
   color: var(--primary-text-color);
