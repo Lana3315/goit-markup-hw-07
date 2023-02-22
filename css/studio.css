@@ -241,6 +241,13 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media screen and(min-width:428px) {
+  .media-mob_contact {
+    display: flex;
+    gap: 56px;
+  }
+}
+
 .contact-link_mob {
   width: 337px;
   display: block;
