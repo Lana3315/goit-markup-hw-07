@@ -326,6 +326,11 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .item-nav:nth-child(2n) {
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .contact-link {
     font-style: normal;
     font-size: 16px;
@@ -846,7 +851,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     padding-left: 108px;
     padding-right: 24px;
   }
@@ -1247,6 +1252,7 @@ a {
     background-color: var(--primary-text-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+    margin-bottom: 0px;
   }
 }
 .subscribe-text {
