@@ -165,6 +165,9 @@ img {
 }
 /* mobile-menu */
 .mobile-menu_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   position: relative;
   padding-left: 40px;
   padding-top: 80px;
@@ -232,7 +235,7 @@ img {
 .menu-contact-container {
   display: flex;
   flex-direction: column;
-  margin-top: 284px;
+  margin-top: auto;
 }
 .media-mob_contact {
   display: flex;
