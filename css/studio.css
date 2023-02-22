@@ -239,7 +239,7 @@ img {
 }
 .media-mob_contact {
   display: flex;
-  gap: 56px;
+  justify-content: space-between;
 }
 .contact-link_mob {
   width: 337px;
