@@ -477,7 +477,7 @@ img {
   color: var(--button-text-active);
 }
 /* phone */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
   .hero-title {
     width: 320px;
   }
@@ -882,6 +882,8 @@ a {
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 .footer .logo {
@@ -1254,7 +1256,7 @@ a {
   background-color: var(--accent-link-color);
 }
 .footer-date {
-  max-width: 398px;
+  width: 100%;
   height: 40px;
   color: var(--button-text-active);
   background-color: var(--primary-text-color);
@@ -1268,7 +1270,7 @@ a {
   margin-bottom: 16px;
 }
 /* phone screen  480*/
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
   .footer-date {
     width: 398px;
   }
