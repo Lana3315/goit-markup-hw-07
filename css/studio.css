@@ -395,7 +395,7 @@ img {
 /* tablet */
 @media screen and (min-width: 768px) {
   .overlay {
-    width: 768px;
+    max-width: 768px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -420,7 +420,7 @@ img {
 /* desc */
 @media screen and (min-width: 1200px) {
   .overlay {
-    width: 1440px;
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         to right,
