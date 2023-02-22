@@ -818,8 +818,10 @@ a {
   border-radius: 4px;
   transition: background-color var(--animation), color var(--animation);
 }
-.customer-partner {
-  width: 168px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .customer-partner {
+    min-width: calc(100% / 2 - 24px);
+  }
 }
 @media screen and (min-width: 768px) {
   .customer-partner {
@@ -1275,7 +1277,7 @@ a {
   background-color: var(--accent-link-color);
 }
 .footer-date {
-  width: 100%;
+  width: 300px;
   height: 40px;
   color: var(--button-text-active);
   background-color: var(--primary-text-color);
